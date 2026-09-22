@@ -12,6 +12,13 @@ AI Infra 学习记录，关注 PyTorch、GPU、分布式通信与系统工程。
 
 </div>
 
+#### 💼 Experience
+
+Xidian University -- `Bachelor's Degree` -- `2021 to 2025`  
+Xidian University -- `Master's Degree` -- `2025 to Present`  
+Bytedance -- `IESQA Team` -- `2026.1 to 7`  
+LimX Dynamic -- `2026.7 to Present`
+
 ## Contribution activity
 
 <div align="center">
