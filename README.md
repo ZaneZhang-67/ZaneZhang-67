@@ -12,7 +12,7 @@ AI Infra 学习记录，关注 PyTorch、GPU、分布式通信与系统工程。
 
 </div>
 
-# 💼 Experience
+# Experience
 
 <div>
   <img src="./assets/logos/xidian.png" height="36" align="left" alt="Xidian University">
@@ -30,14 +30,14 @@ AI Infra 学习记录，关注 PyTorch、GPU、分布式通信与系统工程。
 
 <div>
   <img src="./assets/logos/bytedance-mark.svg" height="36" align="left" alt="Bytedance">
-  <strong>Bytedance（实习）</strong><br>
+  <strong>Bytedance (Intern)</strong><br>
   IESQA Team · 2026.1-2026.7
   <br clear="left"><br>
 </div>
 
 <div>
   <img src="./assets/logos/limx.svg" height="36" align="left" alt="LimX Dynamics">
-  <strong>LimX Dynamic（实习）</strong><br>
+  <strong>LimX Dynamic (Intern)</strong><br>
   2026.7-Present
   <br clear="left">
 </div>
