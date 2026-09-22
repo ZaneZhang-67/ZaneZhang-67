@@ -30,14 +30,14 @@ AI Infra 学习记录，关注 PyTorch、GPU、分布式通信与系统工程。
 
 <div>
   <img src="./assets/logos/bytedance-mark.svg" height="36" align="left" alt="Bytedance">
-  <strong>Bytedance</strong><br>
+  <strong>Bytedance（实习）</strong><br>
   IESQA Team · 2026.1-2026.7
   <br clear="left"><br>
 </div>
 
 <div>
   <img src="./assets/logos/limx.svg" height="36" align="left" alt="LimX Dynamics">
-  <strong>LimX Dynamic</strong><br>
+  <strong>LimX Dynamic（实习）</strong><br>
   2026.7-Present
   <br clear="left">
 </div>
