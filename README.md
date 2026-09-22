@@ -22,10 +22,6 @@ AI Infra 学习记录，关注 PyTorch、GPU、分布式通信与系统工程。
   <img alt="Zane Zhang's 3D GitHub contribution calendar" src="./profile-3d-contrib/profile-green.svg" width="900">
 </picture>
 
-<br>
-
-<a href="https://zanezhang-67.github.io/ZaneZhang-67/">打开交互版：悬浮查看每天的贡献 ↗</a>
-
 </div>
 
 <p align="center">
