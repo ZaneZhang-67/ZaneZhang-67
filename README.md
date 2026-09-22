@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Cascadia+Code&weight=700&size=17&color=0078D7&center=true&pause=100000&lines=Hi%2C+I%27m+Zane.+Just+learning+AI+Infra%2C+one+step+at+a+time." alt="Hi, I'm Zane. Just learning AI Infra, one step at a time.">
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=16&color=dc8749&center=true&vCenter=true&width=720&height=40&pause=100000&lines=Hi%2C+I%27m+Zane.+Just+learning+AI+Infra%2C+one+step+at+a+time." alt="Hi, I'm Zane. Just learning AI Infra, one step at a time.">
 
 AI Infra 学习记录，关注 PyTorch、GPU、分布式通信与系统工程。
 
