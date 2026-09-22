@@ -29,7 +29,7 @@ AI Infra 学习记录，关注 PyTorch、GPU、分布式通信与系统工程。
 </div>
 
 <div>
-  <img src="./assets/logos/bytedance-mark.svg" height="36" align="left" alt="Bytedance">
+  <img src="./assets/logos/bytedance-mark.svg" height="44" align="left" alt="Bytedance">
   <strong>Bytedance</strong><br>
   IESQA Team · 2026.1-2026.7
   <br clear="left"><br>
