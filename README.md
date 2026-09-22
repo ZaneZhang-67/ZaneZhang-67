@@ -42,7 +42,7 @@ AI Infra 学习记录，关注 PyTorch、GPU、分布式通信与系统工程。
   <br clear="left">
 </div>
 
-## Contribution activity
+# Contribution activity
 
 <div align="center">
 
