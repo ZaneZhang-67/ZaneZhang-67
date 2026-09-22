@@ -16,29 +16,29 @@ AI Infra 学习记录，关注 PyTorch、GPU、分布式通信与系统工程。
 
 <div>
   <img src="./assets/logos/xidian.png" height="36" align="left" alt="Xidian University">
-  <strong>&nbsp;&nbsp;Xidian University</strong><br>
-  &nbsp;&nbsp;Bachelor's Degree · 2021-2025
+  <strong>Xidian University</strong><br>
+  Bachelor's Degree · 2021-2025
   <br clear="left"><br>
 </div>
 
 <div>
   <img src="./assets/logos/xidian.png" height="36" align="left" alt="Xidian University">
-  <strong>&nbsp;&nbsp;Xidian University</strong><br>
-  &nbsp;&nbsp;Master's Degree · 2025-Present
+  <strong>Xidian University</strong><br>
+  Master's Degree · 2025-Present
   <br clear="left"><br>
 </div>
 
 <div>
   <img src="./assets/logos/bytedance-mark.svg" height="36" align="left" alt="Bytedance">
-  <strong>&nbsp;&nbsp;Bytedance</strong><br>
-  &nbsp;&nbsp;IESQA Team · 2026.1-2026.7
+  <strong>Bytedance</strong><br>
+  IESQA Team · 2026.1-2026.7
   <br clear="left"><br>
 </div>
 
 <div>
   <img src="./assets/logos/limx.png" height="36" align="left" alt="LimX Dynamics">
-  <strong>&nbsp;&nbsp;LimX Dynamic</strong><br>
-  &nbsp;&nbsp;2026.7-Present
+  <strong>LimX Dynamic</strong><br>
+  2026.7-Present
   <br clear="left">
 </div>
 
