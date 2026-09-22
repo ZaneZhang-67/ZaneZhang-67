@@ -14,10 +14,33 @@ AI Infra 学习记录，关注 PyTorch、GPU、分布式通信与系统工程。
 
 # 💼 Experience
 
-<img src="./assets/logos/xidian.png" height="24" align="absmiddle" alt="Xidian University"> Xidian University -- `Bachelor's Degree` -- `2021 to 2025`<br>
-<img src="./assets/logos/xidian.png" height="24" align="absmiddle" alt="Xidian University"> Xidian University -- `Master's Degree` -- `2025 to Present`<br>
-<img src="./assets/logos/bytedance-mark.svg" height="24" align="absmiddle" alt="Bytedance"> Bytedance -- `IESQA Team` -- `2026.1 to 7`<br>
-<img src="./assets/logos/limx.png" height="24" align="absmiddle" alt="LimX Dynamics"> LimX Dynamic -- `2026.7 to Present`
+<div>
+  <img src="./assets/logos/xidian.png" height="48" align="left" alt="Xidian University">
+  <strong>&nbsp;&nbsp;Xidian University</strong><br>
+  &nbsp;&nbsp;<code>Bachelor's Degree</code> · <code>2021-2025</code>
+  <br clear="left"><br>
+</div>
+
+<div>
+  <img src="./assets/logos/xidian.png" height="48" align="left" alt="Xidian University">
+  <strong>&nbsp;&nbsp;Xidian University</strong><br>
+  &nbsp;&nbsp;<code>Master's Degree</code> · <code>2025-Present</code>
+  <br clear="left"><br>
+</div>
+
+<div>
+  <img src="./assets/logos/bytedance-mark.svg" height="44" align="left" alt="Bytedance">
+  <strong>&nbsp;&nbsp;Bytedance</strong><br>
+  &nbsp;&nbsp;<code>IESQA Team</code> · <code>2026.1-2026.7</code>
+  <br clear="left"><br>
+</div>
+
+<div>
+  <img src="./assets/logos/limx.png" height="44" align="left" alt="LimX Dynamics">
+  <strong>&nbsp;&nbsp;LimX Dynamic</strong><br>
+  &nbsp;&nbsp;<code>2026.7-Present</code>
+  <br clear="left">
+</div>
 
 ## Contribution activity
 
