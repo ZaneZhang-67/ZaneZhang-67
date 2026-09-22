@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Zane Zhang 的 GitHub 贡献活动交互视图" />
+    <title>Zane Zhang · Contribution Activity</title>
+    <style>
+      :root { color-scheme: dark; --bg: #07111a; --panel: #0d1b27; --line: #203746; --text: #edf7f2; --muted: #8ba1aa; --accent: #62e39a; --accent-2: #1f9d65; --empty: #132631; }
+      * { box-sizing: border-box; }
+      body { margin: 0; min-height: 100vh; background: radial-gradient(circle at 15% 0%, #153628 0, transparent 34%), var(--bg); color: var(--text); font: 15px/1.5 ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      main { width: min(1180px, calc(100% - 40px)); margin: 0 auto; padding: 62px 0 72px; }
+      .eyebrow { margin: 0 0 10px; color: var(--accent); font: 700 12px/1.2 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .16em; text-transform: uppercase; }
+      h1 { max-width: 720px; margin: 0; font-size: clamp(34px, 6vw, 68px); line-height: .98; letter-spacing: -.055em; }
+      .intro { max-width: 650px; margin: 20px 0 34px; color: var(--muted); font-size: 17px; }
+      .layout { display: grid; grid-template-columns: minmax(0, 1fr) 280px; gap: 28px; align-items: start; }
+      .stage, .detail { border: 1px solid var(--line); background: color-mix(in srgb, var(--panel) 88%, transparent); box-shadow: 0 24px 80px #0006; }
+      .stage { min-height: 530px; overflow: hidden; padding: 30px 26px 34px; }
+      .stage-head { display: flex; justify-content: space-between; gap: 16px; align-items: baseline; margin-bottom: 28px; }
+      .stage-head strong { font-size: 18px; }
+      .stage-head span { color: var(--muted); font-size: 12px; }
+      .scene { min-height: 385px; display: grid; place-items: center; perspective: 1200px; overflow: auto; }
+      .grid { display: grid; grid-template-columns: repeat(53, 13px); grid-template-rows: repeat(7, 13px); gap: 4px; transform: rotateX(55deg) rotateZ(-38deg) skewX(2deg); transform-style: preserve-3d; padding: 46px; }
+      .cell { width: 13px; height: 13px; padding: 0; border: 0; border-radius: 2px; background: var(--empty); box-shadow: 0 2px 0 #07131a, 0 4px 8px #0005; cursor: crosshair; transform: translateZ(0); transition: transform 120ms ease, filter 120ms ease; }
+      .cell:hover, .cell:focus-visible { z-index: 2; outline: 2px solid var(--text); transform: translateZ(18px) scale(1.2); filter: brightness(1.2); }
+      .l1 { background: #b8e986; } .l2 { background: #62d47e; } .l3 { background: #2eaf67; } .l4 { background: #147044; }
+      .legend { display: flex; justify-content: flex-end; align-items: center; gap: 6px; color: var(--muted); font-size: 12px; }
+      .legend i { display: block; width: 11px; height: 11px; border-radius: 2px; background: var(--empty); } .legend .l1 { background: #b8e986; } .legend .l2 { background: #62d47e; } .legend .l3 { background: #2eaf67; } .legend .l4 { background: #147044; }
+      .detail { position: sticky; top: 24px; padding: 24px; }
+      .detail-label { color: var(--muted); font: 700 11px/1.2 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .12em; text-transform: uppercase; }
+      .detail h2 { margin: 8px 0 6px; font-size: 26px; letter-spacing: -.04em; }
+      .count { margin: 0 0 22px; color: var(--accent); font-size: 34px; font-weight: 750; letter-spacing: -.05em; }
+      .detail p { color: var(--muted); }
+      .detail a { display: inline-flex; margin-top: 12px; color: var(--text); text-decoration: none; border-bottom: 1px solid var(--accent); }
+      .detail a:hover { color: var(--accent); }
+      .note { margin-top: 22px; color: var(--muted); font-size: 12px; }
+      @media (max-width: 860px) { main { width: min(100% - 24px, 680px); padding-top: 38px; } .layout { grid-template-columns: 1fr; } .detail { position: static; } .stage { padding: 22px 12px 26px; } .scene { justify-content: start; } }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p class="eyebrow">Zane Zhang · GitHub activity</p>
+      <h1>每一次提交，都会留下一个坐标。</h1>
+      <p class="intro">悬浮在贡献格上查看某一天的活动数量，再跳转到 GitHub 查看当天的完整活动记录。</p>
+      <section class="layout" aria-label="GitHub contribution activity">
+        <div class="stage">
+          <div class="stage-head"><strong id="total">正在读取贡献数据…</strong><span>过去一年</span></div>
+          <div class="scene"><div id="grid" class="grid" aria-label="贡献日历"></div></div>
+          <div class="legend"><span>少</span><i></i><i class="l1"></i><i class="l2"></i><i class="l3"></i><i class="l4"></i><span>多</span></div>
+        </div>
+        <aside class="detail" aria-live="polite">
+          <span class="detail-label">Hover a tile</span>
+          <h2 id="date">选择一个日期</h2>
+          <p id="count" class="count">—</p>
+          <p id="message">将鼠标移到左侧任意贡献格，查看当天的活动数量。</p>
+          <a id="day-link" href="https://github.com/ZaneZhang-67?tab=overview" target="_blank" rel="noreferrer">打开 GitHub 活动页 ↗</a>
+          <p class="note">数据来自公开 GitHub contribution calendar。页面不会存储你的活动数据。</p>
+        </aside>
+      </section>
+    </main>
+    <script>
+      const USER = 'ZaneZhang-67';
+      const endpoint = `https://github-contributions-api.jogruber.de/v4/${USER}?y=last`;
+      const grid = document.querySelector('#grid');
+      const total = document.querySelector('#total');
+      const dateEl = document.querySelector('#date');
+      const countEl = document.querySelector('#count');
+      const messageEl = document.querySelector('#message');
+      const dayLink = document.querySelector('#day-link');
+      const formatter = new Intl.DateTimeFormat('zh-CN', {year: 'numeric', month: 'long', day: 'numeric', weekday: 'short'});
+
+      function showDay(day) {
+        const date = new Date(`${day.date}T12:00:00`);
+        dateEl.textContent = formatter.format(date);
+        countEl.textContent = `${day.count} 次活动`;
+        messageEl.textContent = day.count ? '这一天有公开贡献记录。打开 GitHub 查看当天的完整活动。' : '这一天没有公开贡献记录。';
+        dayLink.href = `https://github.com/${USER}?tab=overview&from=${day.date}&to=${day.date}`;
+      }
+
+      fetch(endpoint).then((response) => {
+        if (!response.ok) throw new Error(`Contribution API returned ${response.status}`);
+        return response.json();
+      }).then((payload) => {
+        const days = payload.contributions;
+        if (!Array.isArray(days) || !days.length) throw new Error('Contribution API returned no calendar data');
+        const contributionTotal = payload.total.lastYear;
+        total.textContent = `${contributionTotal} 次公开贡献`;
+        days.forEach((day) => {
+          const cell = document.createElement('button');
+          cell.type = 'button';
+          cell.className = `cell ${day.level ? `l${day.level}` : ''}`;
+          cell.title = `${day.date}: ${day.count} 次活动`;
+          cell.setAttribute('aria-label', cell.title);
+          cell.addEventListener('mouseenter', () => showDay(day));
+          cell.addEventListener('focus', () => showDay(day));
+          grid.appendChild(cell);
+        });
+        showDay(days[days.length - 1]);
+      }).catch((error) => {
+        total.textContent = '贡献数据读取失败';
+        messageEl.textContent = error.message;
+        console.error(error);
+      });
+    </script>
+  </body>
+</html>
