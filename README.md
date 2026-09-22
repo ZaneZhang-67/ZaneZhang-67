@@ -36,7 +36,7 @@ AI Infra 学习记录，关注 PyTorch、GPU、分布式通信与系统工程。
 </div>
 
 <div>
-  <img src="./assets/logos/limx.png" height="36" align="left" alt="LimX Dynamics">
+  <img src="./assets/logos/limx.svg" height="36" align="left" alt="LimX Dynamics">
   <strong>LimX Dynamic</strong><br>
   2026.7-Present
   <br clear="left">
