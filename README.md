@@ -1,6 +1,6 @@
 <div align="center">
 
-# Zane Zhang
+<img src="https://readme-typing-svg.herokuapp.com?font=Cascadia+Code&weight=700&size=17&color=0078D7&center=true&pause=100000&lines=Hi%2C+I%27m+Zane.+Just+learning+AI+Infra%2C+one+step+at+a+time." alt="Hi, I'm Zane. Just learning AI Infra, one step at a time.">
 
 AI Infra 学习记录，关注 PyTorch、GPU、分布式通信与系统工程。
 
