@@ -14,32 +14,15 @@ AI Infra 学习记录，关注 PyTorch、GPU、分布式通信与系统工程。
 
 # Experience
 
-<table align="center" border="0" cellpadding="10" cellspacing="0">
-  <tbody>
-    <tr>
-      <td align="center" valign="top">
-        <img src="./assets/logos/xidian.png" width="36" height="36" alt="Xidian University"><br>
-        <strong>Xidian University</strong><br>
-        Bachelor · 2021-2025
-      </td>
-      <td align="center" valign="top">
-        <img src="./assets/logos/xidian.png" width="36" height="36" alt="Xidian University"><br>
-        <strong>Xidian University</strong><br>
-        Master · 2025-Present
-      </td>
-      <td align="center" valign="top">
-        <img src="./assets/logos/bytedance-mark.svg" width="36" height="36" alt="Bytedance"><br>
-        <strong>Bytedance (Intern)</strong><br>
-        IESQA Team · 2026.1-2026.7
-      </td>
-      <td align="center" valign="top">
-        <img src="./assets/logos/limx.svg" width="36" height="36" alt="LimX Dynamics"><br>
-        <strong>LimX Dynamic (Intern)</strong><br>
-        2026.7-Present
-      </td>
-    </tr>
-  </tbody>
-</table>
+<p align="center">
+  <img src="./assets/logos/xidian.png" width="30" height="30" align="middle" alt="Xidian University"> <strong>Xidian University</strong> · Bachelor · 2021-2025
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <img src="./assets/logos/xidian.png" width="30" height="30" align="middle" alt="Xidian University"> <strong>Xidian University</strong> · Master · 2025-Present
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <img src="./assets/logos/bytedance-mark.svg" width="30" height="30" align="middle" alt="Bytedance"> <strong>Bytedance (Intern)</strong> · IESQA · 2026.1-2026.7
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <img src="./assets/logos/limx.svg" width="30" height="30" align="middle" alt="LimX Dynamics"> <strong>LimX Dynamic (Intern)</strong> · 2026.7-Present
+</p>
 
 # Contribution activity
 
