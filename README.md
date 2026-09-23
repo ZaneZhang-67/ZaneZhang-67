@@ -15,7 +15,7 @@ AI Infra 学习记录，关注 PyTorch、GPU、分布式通信与系统工程。
 # Experience
 
 <p align="center">
-  <img src="./assets/experience.svg" width="1000" alt="Experience: Xidian University bachelor and master, Bytedance internship, and LimX Dynamic internship">
+  <img src="./assets/experience-v2.svg" width="1000" alt="Experience: Xidian University bachelor and master, Bytedance internship, and LimX Dynamic internship">
 </p>
 
 # Contribution activity
