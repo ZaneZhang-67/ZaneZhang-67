@@ -15,13 +15,7 @@ AI Infra 学习记录，关注 PyTorch、GPU、分布式通信与系统工程。
 # Experience
 
 <p align="center">
-  <img src="./assets/logos/xidian.png" width="30" height="30" align="middle" alt="Xidian University"> <strong>Xidian University</strong> · Bachelor · 2021-2025
-  &nbsp;&nbsp;|&nbsp;&nbsp;
-  <img src="./assets/logos/xidian.png" width="30" height="30" align="middle" alt="Xidian University"> <strong>Xidian University</strong> · Master · 2025-Present
-  &nbsp;&nbsp;|&nbsp;&nbsp;
-  <img src="./assets/logos/bytedance-mark.svg" width="30" height="30" align="middle" alt="Bytedance"> <strong>Bytedance (Intern)</strong> · IESQA · 2026.1-2026.7
-  &nbsp;&nbsp;|&nbsp;&nbsp;
-  <img src="./assets/logos/limx.svg" width="30" height="30" align="middle" alt="LimX Dynamics"> <strong>LimX Dynamic (Intern)</strong> · 2026.7-Present
+  <img src="./assets/experience.svg" width="1000" alt="Experience: Xidian University bachelor and master, Bytedance internship, and LimX Dynamic internship">
 </p>
 
 # Contribution activity
