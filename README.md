@@ -20,12 +20,12 @@ AI Infra 学习记录，关注 PyTorch、GPU、分布式通信与系统工程。
       <td align="center" valign="top">
         <img src="./assets/logos/xidian.png" width="36" height="36" alt="Xidian University"><br>
         <strong>Xidian University</strong><br>
-        2021-2025
+        Bachelor · 2021-2025
       </td>
       <td align="center" valign="top">
         <img src="./assets/logos/xidian.png" width="36" height="36" alt="Xidian University"><br>
         <strong>Xidian University</strong><br>
-        2025-Present
+        Master · 2025-Present
       </td>
       <td align="center" valign="top">
         <img src="./assets/logos/bytedance-mark.svg" width="36" height="36" alt="Bytedance"><br>
