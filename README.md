@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=16&color=dc8749&center=true&vCenter=true&width=720&height=40&pause=100000&lines=%E6%9D%A5%E5%BD%92%E7%9B%B8%E6%80%A8%E6%80%92%EF%BC%8C%E4%BD%86%E5%9D%90%E8%A7%82%E7%BD%97%E6%95%B7%E3%80%82" alt="来归相怨怒，但坐观罗敷。">
+<img src="https://readme-typing-svg.herokuapp.com?font=Noto+Serif+SC&weight=600&size=16&color=dc8749&center=true&vCenter=true&width=720&height=40&pause=100000&lines=%E6%9D%A5%E5%BD%92%E7%9B%B8%E6%80%A8%E6%80%92%EF%BC%8C%E4%BD%86%E5%9D%90%E8%A7%82%E7%BD%97%E6%95%B7%E3%80%82" alt="来归相怨怒，但坐观罗敷。">
 
 
 
